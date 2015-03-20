@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link href="shared/bookhub.css" rel="stylesheet" type="text/css">
+  <title>A Ricardian Numerical Example</title>
+</head>
+<body>
+
+  
+  <div id=navbar-top class="navbar">
+    <div class="navbar-part left">
+      
+        <a href="s05-05-definitions-absolute-and-compa.html"><img src="shared/images/batch-left.png"></a> <a href="s05-05-definitions-absolute-and-compa.html">Previous Section</a>
+      
+    </div>
+    <div class="navbar-part middle">
+      <a href="index.html"><img src="shared/images/batch-up.png"></a> <a href="index.html">Table of Contents</a>
+    </div>
+    <div class="navbar-part right">
+      
+        <a href="s05-07-relationship-between-prices-an.html">Next Section</a> <a href="s05-07-relationship-between-prices-an.html"><img src="shared/images/batch-right.png"></a>
+      
+    </div>
+  </div>
+
+  <div id="book-content">
+    <div class="section" id="fwk-61960-ch02_s06" condition="start-of-chunk" version="5.0" lang="en">
+    <h2 class="title editable block">
+<span class="title-prefix">2.6</span> A Ricardian Numerical Example</h2>
+    <div class="learning_objectives editable block" id="fwk-61960-ch02_s06_n01">
+        <h3 class="title">Learning Objectives</h3>
+        <ol class="orderedlist" id="fwk-61960-ch02_s06_l01">
+            <li>Using a numerical example similar to one used by David Ricardo, learn how specialization in one’s comparative advantage good can raise world productive efficiency.</li>
+            <li>Learn how both countries can consume more of both goods after trade.</li>
+        </ol>
+    </div>
+    <p class="para editable block" id="fwk-61960-ch02_s06_p01">The simplest way to demonstrate that countries can gain from trade in the Ricardian model is by use of a numerical example. This is how Ricardo presented his argument originally. The example demonstrates that both countries will gain from trade if they specialize in their comparative advantage good and trade some of it for the other good. We set up the example so that one country (the United States) has an absolute advantage in the production of both goods. Ricardo’s surprising result was that a country can gain from trade even if it is technologically inferior in producing every good. Adam Smith explained in <em class="emphasis">The Wealth of Nations</em> that trade is advantageous to both countries, but in his example each country had an absolute advantage in one of the goods. That trade could be advantageous if each country specializes in the good in which it has the technological edge is not surprising at all.</p>
+    <p class="para editable block" id="fwk-61960-ch02_s06_p02">Suppose the exogenous variables in the two countries take the values in <a class="xref" href="#fwk-61960-ch02_s06_t01">Table 2.7 "Exogenous Variable Values"</a>.</p>
+    <div class="table block" id="fwk-61960-ch02_s06_t01" frame="all">
+        <p class="title"><span class="title-prefix">Table 2.7</span> Exogenous Variable Values</p>
+        <table cellpadding="0" cellspacing="0">
+            <tbody>
+                <tr>
+                    <td>United States</td>
+                    <td align="center">
+<em class="emphasis">a</em><sub class="subscript"><em class="emphasis">LC</em></sub> = 1</td>
+                    <td align="center">
+<em class="emphasis">a</em><sub class="subscript"><em class="emphasis">LW</em></sub> = 2</td>
+                    <td align="center">
+<em class="emphasis">L</em> = 24</td>
+                </tr>
+                <tr>
+                    <td>France</td>
+                    <td align="center">
+<em class="emphasis">a</em><sub class="subscript"><em class="emphasis">LC</em></sub>∗ = 6</td>
+                    <td align="center">
+<em class="emphasis">a</em><sub class="subscript"><em class="emphasis">LW</em></sub>∗ = 3</td>
+                    <td align="center">
+<em class="emphasis">L</em>∗ = 24</td>
+                </tr>
+                <tr>
+                    <td colspan="4">
+	<p class="para" id="fwk-61960-ch02_s06_p15">where</p>
+	<p class="para" id="fwk-61960-ch02_s06_p03"><em class="emphasis">L</em> = the labor endowment in the United States (the total number of hours the workforce is willing to provide)</p>
+	<p class="para" id="fwk-61960-ch02_s06_p04"><em class="emphasis">a</em><sub class="subscript"><em class="emphasis">LC</em></sub> = unit labor requirement in cheese production in the United States (hours of labor necessary to produce one unit of cheese)</p>
+	<p class="para" id="fwk-61960-ch02_s06_p05"><em class="emphasis">a</em><sub class="subscript"><em class="emphasis">LW</em></sub> = unit labor requirement in wine production in the United States (hours of labor necessary to produce one unit of wine)</p>
+	<p class="para" id="fwk-61960-ch02_s06_p06">∗All starred variables are defined in the same way but refer to the process in France.</p>
+	</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <p class="para editable block" id="fwk-61960-ch02_s06_p07">By assumption, the United States has the absolute advantage in cheese production and wine production because <em class="emphasis">a</em><sub class="subscript"><em class="emphasis">LC</em></sub>(1) &lt; <em class="emphasis">a</em><sub class="subscript"><em class="emphasis">LC</em></sub>∗(6) and <em class="emphasis">a</em><sub class="subscript"><em class="emphasis">LW</em></sub>(2) &lt; <em class="emphasis">a</em><sub class="subscript"><em class="emphasis">LW</em></sub>∗(3).</p>
+    <p class="para block" id="fwk-61960-ch02_s06_p08">The United States also has the comparative advantage in cheese production because <span class="inlineequation"><math xml:id="fwk-61960_ch02_s06_m001" display="inline"><mrow><mfrac><mrow><msub><mi>a</mi><mrow><mi>L</mi><mi>C</mi></mrow></msub></mrow><mrow><msub><mi>a</mi><mrow><mi>L</mi><mi>W</mi></mrow></msub></mrow></mfrac><mrow><mo>(</mo><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow><mo>)</mo></mrow><mo>&lt;</mo><mfrac><mrow><msubsup><mi>a</mi><mrow><mi>L</mi><mi>C</mi></mrow><mo>∗</mo></msubsup></mrow><mrow><msubsup><mi>a</mi><mrow><mi>L</mi><mi>W</mi></mrow><mo>∗</mo></msubsup></mrow></mfrac><mrow><mo>(</mo><mrow><mfrac><mn>6</mn><mn>3</mn></mfrac></mrow><mo>)</mo></mrow></mrow></math></span>. The cost of producing cheese in the United States is one half gallon of wine per pound of cheese. In France, it is two gallons per pound.</p>
+    <p class="para block" id="fwk-61960-ch02_s06_p09">France, however, has the comparative advantage in wine production because <span class="inlineequation"><math xml:id="fwk-61960_ch02_s06_m002" display="inline"><mrow><mfrac><mrow><msubsup><mi>a</mi><mrow><mi>L</mi><mi>W</mi></mrow><mo>∗</mo></msubsup></mrow><mrow><msubsup><mi>a</mi><mrow><mi>L</mi><mi>C</mi></mrow><mo>∗</mo></msubsup></mrow></mfrac><mrow><mo>(</mo><mrow><mfrac><mn>3</mn><mn>6</mn></mfrac></mrow><mo>)</mo></mrow><mo>&lt;</mo><mfrac><mrow><msub><mi>a</mi><mrow><mi>L</mi><mi>W</mi></mrow></msub></mrow><mrow><msub><mi>a</mi><mrow><mi>L</mi><mi>C</mi></mrow></msub></mrow></mfrac><mrow><mo>(</mo><mrow><mfrac><mn>2</mn><mn>1</mn></mfrac></mrow><mo>)</mo></mrow></mrow></math></span>. The cost of producing wine in France is one half pound of cheese per gallon of wine, while in the United States, it is two pounds per gallon.</p>
+    <p class="para editable block" id="fwk-61960-ch02_s06_p10">The production possibility frontiers for both countries are plotted on <a class="xref" href="#fwk-61960-ch02_s06_f01">Figure 2.3 "Production Possibility Frontiers"</a>. Notice that the U.S. PPF lies outside France’s PPF. Since both countries are assumed to be the same size in the example, this indicates the U.S. absolute advantage in the production of both goods.</p>
+    <p class="para editable block" id="fwk-61960-ch02_s06_p11">The absolute value of the slope of each PPF represents the opportunity cost of cheese production. Since the U.S. PPF is flatter than France’s, this means that the opportunity cost of cheese production is lower in the United States and thus indicates that the United States has the comparative advantage in cheese production.</p>
+    <div class="figure large editable block" id="fwk-61960-ch02_s06_f01">
+        <p class="title"><span class="title-prefix">Figure 2.3</span> Production Possibility Frontiers</p>
+        <img src="section_05/a8705942221d7dadee34eaf9c5fd234e.jpg">
+    </div>
+    <p class="para editable block" id="fwk-61960-ch02_s06_p12">With full employment of labor, production will occur at some point along the PPF.</p>
+    <p class="para editable block" id="fwk-61960-ch02_s06_p13">To see the effects of specialization and free trade, we must compare it to a situation of no trade, or autarky. Thus we must construct an autarky equilibrium first. To determine the autarky production point requires some information about the consumer demand for the goods. Producers will produce whatever consumers demand at the prevailing prices such that supply of each good equals demand. In autarky, this means that the production and consumption point for a country are the same.</p>
+    <p class="para editable block" id="fwk-61960-ch02_s06_p14">For the purpose of this example, we will simply make up a plausible production and consumption point under autarky. Essentially, we assume that consumer demands are such as to generate the chosen production point. <a class="xref" href="#fwk-61960-ch02_s06_t02">Table 2.8 "Autarky Production and Consumption"</a> shows the autarky production and consumption levels for the two countries. It also shows total world production for each of the goods.</p>
+    <div class="table block" id="fwk-61960-ch02_s06_t02" frame="all">
+        <p class="title"><span class="title-prefix">Table 2.8</span> Autarky Production and Consumption</p>
+        <table cellpadding="0" cellspacing="0">
+            <thead>
+                <tr>
+                    <th></th>
+                    <th align="center">Cheese (lbs.)</th>
+                    <th align="center">Wine (gals.)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>United States</td>
+                    <td align="center">16</td>
+                    <td align="center">4</td>
+                </tr>
+                <tr>
+                    <td>France</td>
+                    <td align="center">3</td>
+                    <td align="center">2</td>
+                </tr>
+                <tr>
+                    <td>World Total</td>
+                    <td align="center">19</td>
+                    <td align="center">6</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="section" id="fwk-61960-ch02_s06_s01">
+        <h2 class="title editable block">Autarky Production and Consumption Points</h2>
+        <p class="para editable block" id="fwk-61960-ch02_s06_s01_p01">In <a class="xref" href="#fwk-61960-ch02_s06_s01_f01">Figure 2.4 "Autarky Equilibriums"</a> we depict the autarky production and consumption points for the United States and France. Each point lies on the interior section of the country’s production possibility frontier.</p>
+        <p class="para editable block" id="fwk-61960-ch02_s06_s01_p02"><strong class="emphasis bold">Question</strong>: How do you know that the chosen production points are on the country’s PPF?</p>
+        <p class="para editable block" id="fwk-61960-ch02_s06_s01_p03"><strong class="emphasis bold">Answer</strong>: To verify that a point is on the PPF, we can simply plug the quantities into the PPF equation to see if it is satisfied. The PPF formula is <em class="emphasis">a</em><sub class="subscript"><em class="emphasis">LC</em></sub><em class="emphasis">Q</em><sub class="subscript"><em class="emphasis">C</em></sub> + <em class="emphasis">a</em><sub class="subscript"><em class="emphasis">LW</em></sub><em class="emphasis">Q</em><sub class="subscript"><em class="emphasis">W</em></sub> = <em class="emphasis">L</em>. If we plug the exogenous variables for the United States into the formula, we get <em class="emphasis">Q</em><sub class="subscript"><em class="emphasis">C</em></sub> + 2<em class="emphasis">Q</em><sub class="subscript"><em class="emphasis">W</em></sub> = 24. Plugging in the production point from <a class="xref" href="#fwk-61960-ch02_s06_t02">Table 2.8 "Autarky Production and Consumption"</a> yields 16 + 2(4) = 24, and since 16 + 8 = 24, the production point must lie on the PPF.</p>
+        <p class="para editable block" id="fwk-61960-ch02_s06_s01_p04">Ricardo argued that trade gains could arise if countries first specialized in their comparative advantage good and then traded with the other country. Specialization in the example means that the United States produces only cheese and no wine, while France produces only wine and no cheese. These quantities are shown in <a class="xref" href="#fwk-61960-ch02_s06_s01_t01">Table 2.9 "Production with Specialization in the Comparative Advantage Good"</a>. Also shown are the world totals for each of the goods.</p>
+        <div class="figure large editable block" id="fwk-61960-ch02_s06_s01_f01">
+            <p class="title"><span class="title-prefix">Figure 2.4</span> Autarky Equilibriums</p>
+            <img src="section_05/aa64281e87c0ac62f28ef9a776b52809.jpg">
+        </div>
+        <div class="table block" id="fwk-61960-ch02_s06_s01_t01" frame="all">
+            <p class="title"><span class="title-prefix">Table 2.9</span> Production with Specialization in the Comparative Advantage Good</p>
+            <table cellpadding="0" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th align="center">Cheese (lbs.)</th>
+                        <th align="center">Wine (gals.)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>United States</td>
+                        <td align="center">24</td>
+                        <td align="center">0</td>
+                    </tr>
+                    <tr>
+                        <td>France</td>
+                        <td align="center">0</td>
+                        <td align="center">8</td>
+                    </tr>
+                    <tr>
+                        <td>World Total</td>
+                        <td align="center">24</td>
+                        <td align="center">8</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <p class="para editable block" id="fwk-61960-ch02_s06_s01_p05">At this point, we can already see a remarkable result. When countries specialize in their comparative advantage good, world output of both wine and cheese rises. Cheese output rises from nineteen to twenty-four pounds. Wine output rises from six to eight gallons. What’s more, the output increases occur without an increase in the quantity of labor used to produce them. In autarky, it took forty-eight worker hours to produce nineteen pounds of cheese and six gallons of wine. With specialization, the same forty-eight worker hours produce twenty-four pounds of cheese and eight gallons of wine. This means that there is an increase in world productivity—more output per unit of labor. Often this productivity improvement is referred to as an increase or improvement in world production efficiency.</p>
+        <p class="para editable block" id="fwk-61960-ch02_s06_s01_p06">The increase in world production efficiency does not benefit the countries unless they can trade with each other after specialization. Both production points were feasible under autarky, but the countries demanded some of each good. Thus the countries will want some of each good after specialization, and the only way to accomplish this is through trade. Now if the world can produce more of both goods through specialization, clearly there must be a way to divide the surplus between the two countries so that each country ends up with more of both goods after trade than it had in autarky.</p>
+        <p class="para editable block" id="fwk-61960-ch02_s06_s01_p07">The surplus in world production amounts to five extra pounds of cheese and two extra gallons of wine. To assure that trade is advantageous for the two countries, each must have at least as much to consume of one good and more to consume of the other. Suppose we split the wine surplus equally and give three extra pounds of cheese to France and two extra pounds to the United States. Since the United States consumed sixteen pounds of cheese and four gallons of wine in autarky, it would now have eighteen pounds of cheese and five gallons of wine after specialization and trade. France, which began with three pounds of cheese and two gallons of wine in autarky, would now have six pounds of cheese and three gallons of wine. Consumption and production after trade for the two countries is shown in <a class="xref" href="#fwk-61960-ch02_s06_s01_t02">Table 2.10 "Consumption and Production after Trade"</a>.</p>
+        <div class="table block" id="fwk-61960-ch02_s06_s01_t02" frame="all">
+            <p class="title"><span class="title-prefix">Table 2.10</span> Consumption and Production after Trade</p>
+            <table cellpadding="0" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>Country</th>
+                        <th colspan="2" align="center">Cheese (lbs.)</th>
+                        <th colspan="2" align="center">Wine (gals.)</th>
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <th>Consumption</th>
+                        <th>Production</th>
+                        <th>Consumption</th>
+                        <th>Production</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>United States</td>
+                        <td align="center">18</td>
+                        <td align="center">24</td>
+                        <td align="center">5</td>
+                        <td align="center">0</td>
+                    </tr>
+                    <tr>
+                        <td>France</td>
+                        <td align="center">6</td>
+                        <td align="center">0</td>
+                        <td align="center">3</td>
+                        <td align="center">8</td>
+                    </tr>
+                    <tr>
+                        <td>World Total</td>
+                        <td align="center">24</td>
+                        <td align="center">24</td>
+                        <td align="center">8</td>
+                        <td align="center">8</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <p class="para editable block" id="fwk-61960-ch02_s06_s01_p08">In order for consumption of both goods to be higher in both countries, trade must occur. In the example, the United States is consuming five gallons of wine and producing none, so it must import the five gallons from France. France is consuming six pounds of cheese with no cheese production, so it must import the six pounds from the United States. The terms of trade is TOT = 5 gals./6 lbs., or 5/6 gals./lb.</p>
+    </div>
+    <div class="section" id="fwk-61960-ch02_s06_s02">
+        <h2 class="title editable block">Exercise Conclusion</h2>
+        <p class="para editable block" id="fwk-61960-ch02_s06_s02_p01">The Ricardian model numerical example assumes that countries differ in their production technologies such that one of the countries is absolutely more productive than the other in the production of each of the two goods. If these two countries specialize in their comparative advantage good, then world production rises for both goods. Increased output occurs even though there is no increase in the amount of labor input in the world; thus the example demonstrates that specialization can raise world production efficiency. Because of the increase in output, it is possible to construct a terms of trade between the countries such that each country consumes more of each good with specialization and trade than was possible under autarky. Thus both countries can gain from trade. The surprising result of this example is that a country that is technologically inferior to another in the production of all goods can nevertheless benefit from trade with that country.</p>
+    </div>
+    <div class="section" id="fwk-61960-ch02_s06_s03">
+        <h2 class="title editable block">Limitations of the Numerical Example</h2>
+        <p class="para editable block" id="fwk-61960-ch02_s06_s03_p01">A numerical example can display only one possible outcome for the model. As such, all conclusions should be viewed as possibilities rather than general results of the model. With further thought, there are some problems with the example. First, it is conceivable that with a different choice for the country’s autarky production and consumption points, world output might not rise for both goods upon specialization. In this case, we could not be sure that both countries would gain from trade. Second, since we merely made up a terms of trade that generated the interesting conclusion, we could ask whether a favorable terms of trade is likely to arise. Is it possible to make up a different terms of trade such that one country enjoys all the benefits of increased production while the other is made worse off? How can we be sure that this outcome would not arise? Finally, even if the country has more of both goods after trade, can we be sure that all consumers would have more of both goods? Perhaps some consumers would have more and others less.</p>
+        <p class="para editable block" id="fwk-61960-ch02_s06_s03_p02">The answer to some of these questions can be found by describing more carefully some of the features of the model. In particular, we must describe the relationship between prices and wages. Using these relationships, we can explain the impact of free trade on the price ratio and the effect of trade on the distribution of income.</p>
+        <div class="key_takeaways editable block" id="fwk-61960-ch02_s06_s03_n01">
+            <h3 class="title">Key Takeaways</h3>
+            <ul class="itemizedlist" id="fwk-61960-ch02_s06_s03_l01">
+                <li>In a two-country, two-good, one-factor Ricardian model, specialization in each country’s comparative advantage good can raise world output of both goods.</li>
+                <li>An increase in world output given the same level of inputs is called an increase in world productive efficiency.</li>
+                <li>By choosing an appropriate terms of trade, both countries can consume more of both goods relative to autarky.</li>
+            </ul>
+        </div>
+        <div class="exercises editable block" id="fwk-61960-ch02_s06_s03_n02">
+            <h3 class="title">Exercise</h3>
+            <ol class="orderedlist" id="fwk-61960-ch02_s06_s03_l02">
+                <li>
+                    <p class="para">Consider a Ricardian model with two countries, the United States and the EU, producing two goods, soap bars and toothbrushes. Suppose the productivities are <em class="emphasis">a</em><sub class="subscript"><em class="emphasis">LS</em></sub><sup class="superscript"><em class="emphasis">US</em></sup> = 2 soap bars per worker, <em class="emphasis">a</em><sub class="subscript"><em class="emphasis">LS</em></sub><sup class="superscript"><em class="emphasis">E</em></sup> = 4 soap bars per worker, <em class="emphasis">a</em><sub class="subscript"><em class="emphasis">LT</em></sub><sup class="superscript"><em class="emphasis">US</em></sup> = 8 toothbrushes per worker, and <em class="emphasis">a</em><sub class="subscript"><em class="emphasis">LT</em></sub><sup class="superscript"><em class="emphasis">E</em></sup> = 4 toothbrushes per worker. Assume the United States has 3,200 workers and the EU has 4,000 workers.</p>
+                    <ol class="orderedlist" id="fwk-61960-ch02_s06_s03_l03" numeration="loweralpha">
+                        <li>Plot the PPFs for both countries.</li>
+                        <li>Determine how much each country would produce if it specialized in its comparative advantage good.</li>
+                        <li>Now choose a plausible autarky production point on each country’s PPF such that the world output of each good is exceeded by the outputs determined in part b.</li>
+                        <li>Determine a terms of trade between the two countries that will assure that both countries can consume more of both goods after trade.</li>
+                    </ol>
+                </li>
+            </ol>
+        </div>
+    </div>
+</div>
+
+  </div>
+  
+  <div id=navbar-bottom class="navbar">
+    <div class="navbar-part left">
+      
+        <a href="s05-05-definitions-absolute-and-compa.html"><img src="shared/images/batch-left.png"></a> <a href="s05-05-definitions-absolute-and-compa.html">Previous Section</a>
+      
+    </div>
+    <div class="navbar-part middle">
+      <a href="index.html"><img src="shared/images/batch-up.png"></a> <a href="index.html">Table of Contents</a>
+    </div>
+    <div class="navbar-part right">
+      
+        <a href="s05-07-relationship-between-prices-an.html">Next Section</a> <a href="s05-07-relationship-between-prices-an.html"><img src="shared/images/batch-right.png"></a>
+      
+    </div>
+  </div>
+
+  </div>
+  <script type="text/javascript" src="shared/book.js"></script>
+  
+  <script type="text/javascript" src="https://c328740.ssl.cf1.rackcdn.com/mathjax/latest/MathJax.js?config=MML_HTMLorMML"></script>
+  
+  
+</body>
+</html>

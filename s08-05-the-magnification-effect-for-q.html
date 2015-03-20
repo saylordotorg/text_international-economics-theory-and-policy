@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link href="shared/bookhub.css" rel="stylesheet" type="text/css">
+  <title>The Magnification Effect for Quantities</title>
+</head>
+<body>
+
+  
+  <div id=navbar-top class="navbar">
+    <div class="navbar-part left">
+      
+        <a href="s08-04-the-rybczynski-theorem.html"><img src="shared/images/batch-left.png"></a> <a href="s08-04-the-rybczynski-theorem.html">Previous Section</a>
+      
+    </div>
+    <div class="navbar-part middle">
+      <a href="index.html"><img src="shared/images/batch-up.png"></a> <a href="index.html">Table of Contents</a>
+    </div>
+    <div class="navbar-part right">
+      
+        <a href="s08-06-the-stolper-samuelson-theorem.html">Next Section</a> <a href="s08-06-the-stolper-samuelson-theorem.html"><img src="shared/images/batch-right.png"></a>
+      
+    </div>
+  </div>
+
+  <div id="book-content">
+    <div class="section" id="fwk-61960-ch05_s05" condition="start-of-chunk" version="5.0" lang="en">
+    <h2 class="title editable block">
+<span class="title-prefix">5.5</span> The Magnification Effect for Quantities</h2>
+    <div class="learning_objectives editable block" id="fwk-61960-ch05_s05_n01">
+        <h3 class="title">Learning Objective</h3>
+        <ol class="orderedlist" id="fwk-61960-ch05_s05_l01">
+            <li>Learn how the magnification effect for quantities represents a generalization of the Rybczynski theorem by incorporating the relative magnitudes of the changes.</li>
+        </ol>
+    </div>
+    <p class="para editable block" id="fwk-61960-ch05_s05_p01">The magnification effect for quantities is a more general version of the Rybczynski theorem. It allows for changes in both endowments simultaneously and allows a comparison of the magnitudes of the changes in endowments and outputs.</p>
+    <p class="para editable block" id="fwk-61960-ch05_s05_p02">The simplest way to derive the magnification effect is with a numerical example.</p>
+    <p class="para editable block" id="fwk-61960-ch05_s05_p03">Suppose the exogenous variables of the model take the values in <a class="xref" href="#fwk-61960-ch05_s05_t01">Table 5.3 "Numerical Values for Exogenous Variables"</a> for one country.</p>
+    <div class="table block" id="fwk-61960-ch05_s05_t01" frame="all">
+        <p class="title"><span class="title-prefix">Table 5.3</span> Numerical Values for Exogenous Variables</p>
+        <table cellpadding="0" cellspacing="0">
+            <tbody>
+                <tr>
+                    <td align="center">
+<em class="emphasis">a</em><sub class="subscript"><em class="emphasis">LC</em></sub> = 2</td>
+                    <td align="center">
+<em class="emphasis">a</em><sub class="subscript"><em class="emphasis">LS</em></sub> = 3</td>
+                    <td align="center">
+<em class="emphasis">L</em> = 120</td>
+                </tr>
+                <tr>
+                    <td align="center">
+<em class="emphasis">a</em><sub class="subscript"><em class="emphasis">KC</em></sub> = 1</td>
+                    <td align="center">
+<em class="emphasis">a</em><sub class="subscript"><em class="emphasis">KS</em></sub> = 4</td>
+                    <td align="center">
+<em class="emphasis">K</em> = 120</td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+	<p class="para" id="fwk-61960-ch05_s05_p25">where</p>
+	<p class="para" id="fwk-61960-ch05_s05_p04"><em class="emphasis">L</em> = labor endowment of the country</p>
+	<p class="para" id="fwk-61960-ch05_s05_p05"><em class="emphasis">K</em> = capital endowment of the country</p>
+	<p class="para" id="fwk-61960-ch05_s05_p06"><em class="emphasis">a</em><sub class="subscript"><em class="emphasis">LC</em></sub> = unit labor requirement in clothing production</p>
+	<p class="para" id="fwk-61960-ch05_s05_p07"><em class="emphasis">a</em><sub class="subscript"><em class="emphasis">KC</em></sub> = unit capital requirement in clothing production</p>
+	<p class="para" id="fwk-61960-ch05_s05_p08"><em class="emphasis">a</em><sub class="subscript"><em class="emphasis">LS</em></sub> = unit labor requirement in steel production</p>
+	<p class="para" id="fwk-61960-ch05_s05_p09"><em class="emphasis">a</em><sub class="subscript"><em class="emphasis">KS</em></sub> = unit capital requirement in steel production</p>
+	</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <p class="para block" id="fwk-61960-ch05_s05_p10">With these numbers, <span class="inlineequation"><math xml:id="fwk-61960_ch05_s05_m001" display="inline"><mrow><mfrac><mrow><msub><mi>a</mi><mrow><mi>K</mi><mi>S</mi></mrow></msub></mrow><mrow><msub><mi>a</mi><mrow><mi>L</mi><mi>S</mi></mrow></msub></mrow></mfrac><mrow><mo>(</mo><mrow><mfrac><mn>4</mn><mn>3</mn></mfrac></mrow><mo>)</mo></mrow><mo>&gt;</mo><mfrac><mrow><msub><mi>a</mi><mrow><mi>K</mi><mi>C</mi></mrow></msub></mrow><mrow><msub><mi>a</mi><mrow><mi>L</mi><mi>C</mi></mrow></msub></mrow></mfrac><mrow><mo>(</mo><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow><mo>)</mo></mrow></mrow></math></span>, which means that steel production is capital intensive and clothing is labor intensive.</p>
+    <p class="para editable block" id="fwk-61960-ch05_s05_p11">The following are the labor and capital constraints:</p>
+    <ul class="itemizedlist editable block" id="fwk-61960-ch05_s05_l02">
+        <li>Labor constraint: 2<em class="emphasis">Q</em><sub class="subscript"><em class="emphasis">C</em></sub> + 3<em class="emphasis">Q</em><sub class="subscript"><em class="emphasis">S</em></sub> = 120</li>
+        <li>Capital constraint: <em class="emphasis">Q</em><sub class="subscript"><em class="emphasis">C</em></sub> + 4<em class="emphasis">Q</em><sub class="subscript"><em class="emphasis">S</em></sub> = 120</li>
+    </ul>
+    <p class="para editable block" id="fwk-61960-ch05_s05_p12">We graph these in <a class="xref" href="#fwk-61960-ch05_s05_f01">Figure 5.3 "Numerical Labor and Capital Constraints"</a>. The steeper red line is the labor constraint and the flatter blue line is the capital constraint. The output quantities on the PPF can be found by solving the two constraint equations simultaneously.</p>
+    <div class="figure large medium-height editable block" id="fwk-61960-ch05_s05_f01">
+        <p class="title"><span class="title-prefix">Figure 5.3</span> Numerical Labor and Capital Constraints</p>
+        <img src="section_08/0d8eca2750a3c8270101ad4c4297af79.jpg">
+    </div>
+    <p class="para editable block" id="fwk-61960-ch05_s05_p13">A simple method to solve these equations follows.</p>
+    <p class="para editable block" id="fwk-61960-ch05_s05_p14">First, multiply the second equation by (−2) to get</p>
+    <span class="informalequation block">2<em class="emphasis">Q</em><sub class="subscript"><em class="emphasis">C</em></sub> + 3<em class="emphasis">Q</em><sub class="subscript"><em class="emphasis">S</em></sub> = 120</span>
+    <p class="para editable block" id="fwk-61960-ch05_s05_p15">and</p>
+    <span class="informalequation block">−2<em class="emphasis">Q</em><sub class="subscript"><em class="emphasis">C</em></sub> − 8<em class="emphasis">Q</em><sub class="subscript"><em class="emphasis">S</em></sub> = −240.</span>
+    <p class="para editable block" id="fwk-61960-ch05_s05_p16">Adding these two equations vertically yields</p>
+    <span class="informalequation block">0<em class="emphasis">Q</em><sub class="subscript"><em class="emphasis">C</em></sub> − 5<em class="emphasis">Q</em><sub class="subscript"><em class="emphasis">S</em></sub> = −120,</span>
+    <p class="para block" id="fwk-61960-ch05_s05_p17">which implies <span class="inlineequation"><math display="inline" xml:id="suranovic_mml_m1"><semantics><mrow><msub><mi>Q</mi><mi>S</mi></msub><mo>=</mo><mfrac><mrow><mo>−</mo><mn>120</mn></mrow><mrow><mo>−</mo><mn>5</mn></mrow></mfrac><mo>=</mo><mn>24</mn></mrow></semantics></math></span>. Plugging this into the first equation above (any equation will do) yields 2<em class="emphasis">Q</em><sub class="subscript"><em class="emphasis">C</em></sub> + 3∗24 = 120. Simplifying, we get <span class="inlineequation"><math xml:id="fwk-61960_ch05_s05_m003" display="inline"><mrow><msub><mi>Q</mi><mi>C</mi></msub><mo>=</mo><mfrac><mrow><mn>120</mn><mo>−</mo><mn>72</mn></mrow><mn>2</mn></mfrac><mo>=</mo><mn>24</mn></mrow></math></span>. Thus the solutions to the two equations are <em class="emphasis">Q</em><sub class="subscript"><em class="emphasis">C</em></sub> = 24 and <em class="emphasis">Q</em><sub class="subscript"><em class="emphasis">S</em></sub> = 24.</p>
+    <p class="para editable block" id="fwk-61960-ch05_s05_p18">Next, suppose the capital endowment, <em class="emphasis">K</em>, increases to 150. This changes the capital constraint but leaves the labor constraint unchanged. The labor and capital constraints now are the following:</p>
+    <ul class="itemizedlist editable block" id="fwk-61960-ch05_s05_l03">
+        <li>Labor constraint: 2<em class="emphasis">Q</em><sub class="subscript"><em class="emphasis">C</em></sub> + 3<em class="emphasis">Q</em><sub class="subscript"><em class="emphasis">S</em></sub> = 120</li>
+        <li>Capital constraint: <em class="emphasis">Q</em><sub class="subscript"><em class="emphasis">C</em></sub> + 4<em class="emphasis">Q</em><sub class="subscript"><em class="emphasis">S</em></sub> = 150</li>
+    </ul>
+    <p class="para editable block" id="fwk-61960-ch05_s05_p19">Follow the same procedure to solve for the outputs in the new full employment equilibrium.</p>
+    <p class="para editable block" id="fwk-61960-ch05_s05_p20">First, multiply the second equation by (−2) to get</p>
+    <span class="informalequation block">2<em class="emphasis">Q</em><sub class="subscript"><em class="emphasis">C</em></sub> + 3<em class="emphasis">Q</em><sub class="subscript"><em class="emphasis">S</em></sub> = 120</span>
+    <p class="para editable block" id="fwk-61960-ch05_s05_p21">and</p>
+    <span class="informalequation block">−2<em class="emphasis">Q</em><sub class="subscript"><em class="emphasis">C</em></sub> − 8<em class="emphasis">Q</em><sub class="subscript"><em class="emphasis">S</em></sub> = −300.</span>
+    <p class="para editable block" id="fwk-61960-ch05_s05_p22">Adding these two equations vertically yields</p>
+    <span class="informalequation block">0<em class="emphasis">Q</em><sub class="subscript"><em class="emphasis">C</em></sub> − 5<em class="emphasis">Q</em><sub class="subscript"><em class="emphasis">S</em></sub> = −180,</span>
+    <p class="para block" id="fwk-61960-ch05_s05_p23">which implies <span class="inlineequation"><math xml:id="fwk-61960_ch05_s05_m004" display="inline"><mrow><msub><mi>Q</mi><mi>S</mi></msub><mo>=</mo><mfrac><mrow><mo>−</mo><mn>180</mn></mrow><mrow><mo>−</mo><mn>5</mn></mrow></mfrac><mo>=</mo><mn>36</mn></mrow></math></span>. Plugging this into the first equation above (any equation will do) yields 2<em class="emphasis">Q</em><sub class="subscript"><em class="emphasis">C</em></sub> + 3∗36 = 120. Simplifying, we get <span class="inlineequation"><math xml:id="fwk-61960_ch05_s05_m005" display="inline"><mrow><msub><mi>Q</mi><mi>C</mi></msub><mo>=</mo><mfrac><mrow><mn>120</mn><mo>−</mo><mn>108</mn></mrow><mn>2</mn></mfrac><mo>=</mo><mn>6</mn></mrow></math></span>. Thus the new solutions are <em class="emphasis">Q</em><sub class="subscript"><em class="emphasis">C</em></sub> = 6 and <em class="emphasis">Q</em><sub class="subscript"><em class="emphasis">S</em></sub> = 36.</p>
+    <p class="para editable block" id="fwk-61960-ch05_s05_p24">The Rybczynski theorem says that if the capital endowment rises, it will cause an increase in output of the capital-intensive good (in this case, steel) and a decrease in output of the labor-intensive good (clothing). In this numerical example, <em class="emphasis">Q</em><sub class="subscript"><em class="emphasis">S</em></sub> rises from 24 to 36 and <em class="emphasis">Q</em><sub class="subscript"><em class="emphasis">C</em></sub> falls from 24 to 6.</p>
+    <div class="section" id="fwk-61960-ch05_s05_s01">
+        <h2 class="title editable block">Percentage Changes in the Endowments and Outputs</h2>
+        <p class="para block" id="fwk-61960-ch05_s05_s01_p01">The magnification effect for quantities ranks the percentage changes in endowments and the percentage changes in outputs. We’ll denote the percentage change by using a ^ above the variable (i.e., <span class="inlineequation"><math xml:id="fwk-61960_ch05_s05_m006" display="inline"><mrow><mover><mi>X</mi><mo>∧</mo></mover></mrow></math></span>= percentage change in <em class="emphasis">X</em>).</p>
+        <div class="table block" id="fwk-61960-ch05_s05_s01_t01" frame="all">
+            <p class="title"><span class="title-prefix">Table 5.4</span> Calculating Percentage Changes in the Endowments and Outputs</p>
+            <table cellpadding="0" cellspacing="0">
+                <tbody>
+                    <tr>
+                        <td align="center"><span class="inlineequation"><math xml:id="fwk-61960_ch05_s05_m007" display="inline"><mrow><mover><mi>K</mi><mo>∧</mo></mover><mo>=</mo><mfrac><mrow><mn>150</mn><mo>−</mo><mn>120</mn></mrow><mrow><mn>120</mn></mrow></mfrac><mo>∗</mo><mn>100</mn><mo>=</mo><mo>+</mo><mn>25</mn><mi>%</mi></mrow></math></span></td>
+                        <td>The capital stock rises by 25 percent.</td>
+                    </tr>
+                    <tr>
+                        <td align="center"><span class="inlineequation"><math xml:id="fwk-61960_ch05_s05_m008" display="inline"><mrow><mover><mrow><msub><mi>Q</mi><mi>S</mi></msub></mrow><mo>∧</mo></mover><mo>=</mo><mfrac><mrow><mn>36</mn><mo>−</mo><mn>24</mn></mrow><mrow><mn>24</mn></mrow></mfrac><mo>∗</mo><mn>100</mn><mo>=</mo><mo>+</mo><mn>50</mn><mi>%</mi></mrow></math></span></td>
+                        <td>The quantity of steel rises by 50 percent.</td>
+                    </tr>
+                    <tr>
+                        <td align="center"><span class="inlineequation"><math xml:id="fwk-61960_ch05_s05_m009" display="inline"><mrow><mover><mrow><msub><mi>Q</mi><mi>C</mi></msub></mrow><mo>∧</mo></mover><mo>=</mo><mfrac><mrow><mn>6</mn><mo>−</mo><mn>24</mn></mrow><mrow><mn>24</mn></mrow></mfrac><mo>∗</mo><mn>100</mn><mo>=</mo><mo>−</mo><mn>75</mn><mi>%</mi></mrow></math></span></td>
+                        <td>The quantity of clothing falls by 75 percent.</td>
+                    </tr>
+                    <tr>
+                        <td align="center"><span class="inlineequation"><math xml:id="fwk-61960_ch05_s05_m010" display="inline"><mrow><mover><mi>L</mi><mo>∧</mo></mover><mo>=</mo><mo>+</mo><mn>0</mn><mi>%</mi></mrow></math></span></td>
+                        <td>The labor stock is unchanged.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <p class="para editable block" id="fwk-61960-ch05_s05_s01_p02">The rank order of the changes in <a class="xref" href="#fwk-61960-ch05_s05_s01_t01">Table 5.4 "Calculating Percentage Changes in the Endowments and Outputs"</a> is the <span class="margin_term"><a class="glossterm">magnification effect for quantities</a><span class="glossdef">A relationship in the H-O model that specifies the magnitude of output changes in response to changes in the factor endowments.</span></span>:</p>
+        <span class="informalequation block"><math xml:id="fwk-61960_ch05_s05_m011" display="block"><mrow><mover><mrow><msub><mi>Q</mi><mi>S</mi></msub></mrow><mo>∧</mo></mover><mo>&gt;</mo><mover><mi>K</mi><mo>∧</mo></mover><mo>&gt;</mo><mover><mi>L</mi><mo>∧</mo></mover><mo>&gt;</mo><mover><mrow><msub><mi>Q</mi><mi>C</mi></msub></mrow><mo>∧</mo></mover><mtext>.</mtext></mrow></math></span>
+        <p class="para editable block" id="fwk-61960-ch05_s05_s01_p03">The effect is initiated by changes in the endowments. If the endowments change by some percentage, ordered as above, then the quantity of the capital-intensive good (steel) will rise by a <em class="emphasis">larger</em> percentage than the capital stock change. The size of the effect is <em class="emphasis">magnified</em> relative to the cause.</p>
+        <p class="para editable block" id="fwk-61960-ch05_s05_s01_p04">The quantity of cloth (<em class="emphasis">Q</em><sub class="subscript"><em class="emphasis">C</em></sub>) changes by a smaller percentage than the smaller labor endowment change. Its effect is magnified downward.</p>
+        <p class="para editable block" id="fwk-61960-ch05_s05_s01_p05">Although this effect was derived only for the specific numerical values assumed in the example, it is possible to show, using more advanced methods, that the effect will arise for any endowment changes that are made. Thus if the labor endowment were to rise with no change in the capital endowment, the magnification effect would be</p>
+        <span class="informalequation block"><math xml:id="fwk-61960_ch05_s05_m012" display="block"><mrow><mover><mrow><msub><mi>Q</mi><mi>C</mi></msub></mrow><mo>∧</mo></mover><mo>&gt;</mo><mover><mi>L</mi><mo>∧</mo></mover><mo>&gt;</mo><mover><mi>K</mi><mo>∧</mo></mover><mo>&gt;</mo><mover><mrow><msub><mi>Q</mi><mi>S</mi></msub></mrow><mo>∧</mo></mover><mtext>.</mtext></mrow></math></span>
+        <p class="para editable block" id="fwk-61960-ch05_s05_s01_p06">This implies that the quantity of the labor-intensive good (clothing) would rise by a greater percentage than the quantity of labor, while the quantity of steel would fall.</p>
+        <p class="para editable block" id="fwk-61960-ch05_s05_s01_p07">The magnification effect for quantities is a generalization of the Rybczynski theorem. The effect allows for changes in both endowments simultaneously and provides information about the magnitude of the effects. The Rybczynski theorem is one special case of the magnification effect that assumes one of the endowments is held fixed.</p>
+        <p class="para editable block" id="fwk-61960-ch05_s05_s01_p08">Although the magnification effect is shown here under the special assumption of fixed factor proportions and for a particular set of parameter values, the result is much more general. It is possible, using calculus, to show that the effect is valid under any set of parameter values and in a more general variable proportions model.</p>
+        <div class="key_takeaways editable block" id="fwk-61960-ch05_s05_s01_n01">
+            <h3 class="title">Key Takeaways</h3>
+            <ul class="itemizedlist" id="fwk-61960-ch05_s05_s01_l01">
+                <li>The magnification effect for quantities shows that if the factor endowments change by particular percentages with one greater than the other, then the outputs will change by percentages that are larger than the larger endowment change and smaller than the smaller. It is in this sense that the output changes are magnified relative to the factor changes.</li>
+                <li>If the percentage change of the capital endowment exceeds the percentage change of the labor endowment, for example, then output of the good that uses capital intensively will change by a greater percentage than capital changed, while the output of the good that uses labor intensively will change by less than labor changed.</li>
+            </ul>
+        </div>
+        <div class="exercises block" id="fwk-61960-ch05_s05_s01_n02">
+            <h3 class="title">Exercises</h3>
+            <ol class="orderedlist">
+                <li>
+                    <p class="para">Consider a two-factor (capital and labor), two-good (beer and peanuts) H-O economy. Suppose beer is capital intensive. Let <em class="emphasis">Q</em><sub class="subscript"><em class="emphasis">B</em></sub> and <em class="emphasis">Q</em><sub class="subscript"><em class="emphasis">P</em></sub> represent the outputs of beer and peanuts, respectively.</p>
+                    <ol class="orderedlist" id="fwk-61960-ch05_s05_s01_l02" numeration="loweralpha">
+                        <li>Write the magnification effect for quantities if the labor endowment increases and the capital endowment decreases</li>
+                        <li>Write the magnification effect for quantities if the capital endowment increases by 10 percent and the labor endowment increases by 5 percent.</li>
+                        <li>Write the magnification effect for quantities if the labor endowment decreases by 10 percent and the capital endowment decreases by 15 percent.</li>
+                        <li>Write the magnification effect for quantities if the capital endowment decreases while the labor endowment does not change.</li>
+                    </ol>
+                </li>
+                <li>
+                    <p class="para">Consider a country producing milk and cookies using labor and capital as inputs and described by a Heckscher-Ohlin model. The following table provides outputs for goods and factor endowments before and after a change in the endowments.</p>
+                    <div class="table" id="fwk-61960-ch05_s05_s01_t02" frame="all">
+                    <p class="title"><span class="title-prefix">Table 5.5</span> Outputs and Endowments</p>
+                        <table cellpadding="0" cellspacing="0">
+                            <thead>
+                                <tr>
+                                    <th></th>
+                                    <th align="center">Initial</th>
+                                    <th align="center">After Endowment Change</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Milk Output (<em class="emphasis">QM</em>)</td>
+                                    <td align="center">100 gallons</td>
+                                    <td align="center">110 gallons</td>
+                                </tr>
+                                <tr>
+                                    <td>Cookie Output (<em class="emphasis">QC</em>)</td>
+                                    <td align="center">100 pounds</td>
+                                    <td align="center">80 pounds</td>
+                                </tr>
+                                <tr>
+                                    <td>Labor Endowment (<em class="emphasis">L</em>)</td>
+                                    <td align="center">4,000 hours</td>
+                                    <td align="center">4,200 hours</td>
+                                </tr>
+                                <tr>
+                                    <td>Capital Endowment (<em class="emphasis">K</em>)</td>
+                                    <td align="center">1,000 hours</td>
+                                    <td align="center">1,000 hours</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <ol class="orderedlist" id="fwk-61960-ch05_s05_s01_l03" numeration="loweralpha">
+                        <li>Calculate and display the magnification effect for quantities in response to the endowment change.</li>
+                        <li>Which product is capital intensive?</li>
+                        <li>Which product is labor intensive?</li>
+                    </ol>
+                </li>
+                <li>
+                    <p class="para">Consider the following data in a Heckscher-Ohlin model with two goods (wine and cheese) and two factors (capital and labor).</p>
+                    <p class="para"><em class="emphasis">a</em><sub class="subscript"><em class="emphasis">KC</em></sub> = 5 hours per pound (unit capital requirement in cheese)</p>
+                    <p class="para"><em class="emphasis">a</em><sub class="subscript"><em class="emphasis">KW</em></sub> = 10 hours per gallon (unit capital requirement in wine)</p>
+                    <p class="para"><em class="emphasis">a</em><sub class="subscript"><em class="emphasis">LC</em></sub> = 15 hours per pound (unit labor requirement in cheese)</p>
+                    <p class="para"><em class="emphasis">a</em><sub class="subscript"><em class="emphasis">LW</em></sub> = 20 hours per gallon (unit labor requirement in wine)</p>
+                    <p class="para"><em class="emphasis">L</em> = 5,500 hours (labor endowment)</p>
+                    <p class="para"><em class="emphasis">K</em> = 2,500 hours (capital endowment)</p>
+                    <ol class="orderedlist" id="fwk-61960-ch05_s05_s01_l04" numeration="loweralpha">
+                        <li>Solve for the equilibrium output levels of wine and cheese.</li>
+                        <li>Suppose the labor endowment falls by 100 hours to 5,400 hours. Solve for the new equilibrium output levels of wine and cheese.</li>
+                        <li>Calculate the percentage changes in the outputs and endowments and write the magnification effect for quantities.</li>
+                        <li>Identify which good is labor intensive and which is capital intensive.</li>
+                    </ol>
+                </li>
+            </ol>
+        </div>
+    </div>
+</div>
+
+  </div>
+  
+  <div id=navbar-bottom class="navbar">
+    <div class="navbar-part left">
+      
+        <a href="s08-04-the-rybczynski-theorem.html"><img src="shared/images/batch-left.png"></a> <a href="s08-04-the-rybczynski-theorem.html">Previous Section</a>
+      
+    </div>
+    <div class="navbar-part middle">
+      <a href="index.html"><img src="shared/images/batch-up.png"></a> <a href="index.html">Table of Contents</a>
+    </div>
+    <div class="navbar-part right">
+      
+        <a href="s08-06-the-stolper-samuelson-theorem.html">Next Section</a> <a href="s08-06-the-stolper-samuelson-theorem.html"><img src="shared/images/batch-right.png"></a>
+      
+    </div>
+  </div>
+
+  </div>
+  <script type="text/javascript" src="shared/book.js"></script>
+  
+  <script type="text/javascript" src="https://c328740.ssl.cf1.rackcdn.com/mathjax/latest/MathJax.js?config=MML_HTMLorMML"></script>
+  
+  
+</body>
+</html>
